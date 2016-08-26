@@ -5,11 +5,11 @@ function changeColor(box) {
 }
 
 function addText(box) {
-  box.innerHTML = "Hello!";
+  box.innerHTML = "<ul><li>hello</li><li>again</li></ul>";
 }
 
 function addClass(box) {
-  box.className += " light";
+  box.className = " lkdsflkaj";
 }
 
 function readText() {
@@ -31,4 +31,3 @@ function readText() {
 // See more:
 // http://www.w3schools.com/js/js_htmldom_document.asp
 // http://www.w3schools.com/js/js_htmldom_elements.asp
-
